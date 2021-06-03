@@ -1,0 +1,52 @@
+{
+    "gangs": [
+       {
+            "id": 1,
+            "title":"VAGOS",
+            "src":"https://localhost:9000/vagos.png",
+            "text": "The Vagos are a large and powerful Mexican Los Santos street gang that sport yellow bandanas and occupy a majority of the far North and East areas of Los Santos namely Las Colinas East Beach and Los Flores.",
+            "label": "VAGOS",
+            "path": "/products"
+       },
+       {
+            "id": 2,
+            "title":"Groove Street Family",
+            "src":"https://localhost:9000/gsf.jpg",
+            "text": "The Grove Street Families are a black/Afro-American street gang in Los Santos and used to be the most powerful gang in Los Santos but have been silenced over the past few years by drugs, internal disagreements and their sworn enemies, the Ballas.",
+            "label": "GSF",
+            "path": "/products"
+       },
+       {
+            "id": 3,
+            "title":"Varrios Loz Aztecas",
+            "src":"https://localhost:9000/losaztecas.jpg",
+            "text": "A small-time Latin/Mexican Los Santos street gang based in the barrios of El Corona and Little Mexico in addition to Unity Station - a popular meeting spot for the Aztecas, distinctly recognised by their turquoise bandanas.",
+            "label": "VLA",
+            "path": "/products"
+       },
+       {
+            "id": 4,
+            "title":"BALLAS",
+            "src":"https://localhost:9000/ballas.jpg",
+            "text": "The Ballas are the largest and most powerful black/afro-American street gang in Los Santos and have a bitter rivalry with the Grove Street Families. The Ballas come in Four sets - Front Yard Ballas, Rollin Heights Ballas, Kilo Tray Ballas and the Temple Drive Ballas.",
+            "label": "BALLAS",
+            "path": "/products"
+       },
+       {
+            "id": 5,
+            "title":"RED MAFIA",
+            "src":"https://localhost:9000/redmafia.jpg",
+            "text": "Three Liberty City based Italian mob families operate in Las Venturas, and each of them have a stake in Caligulas Casino The Sindacco Family want to do business with the Leones and this involves Salvatore pledging million dollars to the Sindaccos",
+            "label": "Red Mafia",
+            "path": "/products"
+       },
+       {
+            "id": 6,
+            "title":"Madrazo Cartels",
+            "src":"https://localhost:9000/madrazocartels.jpg",
+            "text": "The Madrazo cartels are a Vietnamese street gang based in San Fierro, preparing a full move to the United States. They control the dockland/bay area in Easter Basin and parts of Esplanade North often causing violent disturbance. They are currently at a major war with the San Fierro Triads.",
+            "label": "MC",
+            "path": "/products"
+       } 
+    ]
+}

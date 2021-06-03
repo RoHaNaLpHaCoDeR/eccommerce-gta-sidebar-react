@@ -1,0 +1,57 @@
+:root {
+  --primary: white;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: #0059ff;
+  border: none;
+  margin-left: 130px;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+  color: rgb(0, 0, 0);
+  border: 1px solid var(--primary);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding: 1px 30px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+  padding: 5px 20px;
+  font-size: 20px;
+}
+
+.btn--large {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 28px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn--large:hover,
+.btn--medium:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #0059ff;
+  transition: 250ms;
+}
+
+.navbar-button {
+  margin-top: 32px;
+  display: block;
+}
+
+.navbar-button .btn-btn {
+  margin: 3px;
+  width: 10px;
+}

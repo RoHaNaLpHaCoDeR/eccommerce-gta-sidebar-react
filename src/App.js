@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
 import './App.css';
+import Home from './components/pages/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { CustomerAccessPage } from "./components/customerAccessPage";
+import { Trailer } from "./components/Trailer";
+import Services from './components/Services';
+import { AppProductvagos } from './components/Products/AppProductvagos';
+import Footer from './components/Footer';
+import Cards from './components/Cards';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/products/vagos' exact component={AppProductvagos} />
+          <Route path='/products' exact component={Cards} />
+          <Route path='/services' exact component={Services} />
+          <Route path='/social' exact component={Footer} />
+          <Route path='/trailer' exact component={Trailer} />
+          <Route path="/customer/access/:action" exact component={CustomerAccessPage} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
